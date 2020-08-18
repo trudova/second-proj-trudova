@@ -22,7 +22,12 @@ export default class Navbar extends Component {
                     </button>
                     </div>
                     <ul className={this.state.isOpen?'nav-links show-nav':'nav-links'} >
-
+                    <li>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='/rooms'>Rooms</Link>
+                    </li>
                     </ul>
                 </div>
             </nav>
@@ -32,3 +37,4 @@ export default class Navbar extends Component {
 //import icon 
 // set up the button for icon
 // set up ul = actual nav
+// setting up condition for small and big nav
