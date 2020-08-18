@@ -29,7 +29,8 @@ this.state={
 </Link>
             </div>
         }
-        const {name, description, capacity,size,price,extras,breakfast,pets,images } =room
+        const {name, description, capacity,size,price,extras,breakfast,pets,images } =room;
+        const [mainImg,...defaultImg]=images //rest operator 
         return (
             <>
             <StyledHero img={images[0] || this.state.defaultBcg }>
