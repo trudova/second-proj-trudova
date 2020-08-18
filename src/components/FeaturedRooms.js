@@ -27,3 +27,4 @@ export default class FeaturedRooms extends Component {
 // import loading to the feauter Rooms
 //create room component 
 // import room componett 
+//condition for the loading 
