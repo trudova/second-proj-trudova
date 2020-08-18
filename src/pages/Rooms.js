@@ -1,10 +1,17 @@
 import React from 'react'
 import Hero from '../components/Hero'
+import Banner from '../components/Banner'
+import {Link} from 'react-router-dom'
 const Rooms = () => {
     return (
-        <Hero hero='roomsHero'/>
+        <Hero hero='roomsHero'>
+            <Banner title='our sweet rooms'>
+                <Link to='/' className='btn-primary'>return home</Link>
+            </Banner>
+        </Hero>
     )
 }
 
 export default Rooms
 // set up different background for rooms page
+//banner for a rooms page
