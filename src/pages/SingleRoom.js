@@ -20,6 +20,11 @@ this.state={
     render() {
         const {getRoom}=this.context;
         const room = getRoom(this.state.slug);
+        if(!room ){
+            return <div className='error'>
+<h3>no such room X|</h3>
+            </div>
+        }
         return (
             <div>
                 hello from single room page
