@@ -14,3 +14,5 @@ export default class FeaturedRooms extends Component {
     }
 }
 //context API
+//create Loading component
+// import loading to the feauter Rooms
