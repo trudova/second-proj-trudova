@@ -15,7 +15,8 @@ export default class Services extends Component {
                     title:'free coctails',
                     info:'we take care of our guests, we will meet you from the airport and take you back'  },
                     {icon: <FaBeer/>,
-                        title:'two free beers from our own brewery, always cold always fresh, always best'  }
+                    title:'free beers' ,
+                    info:'two free beers from our own brewery, always cold always fresh, always best' }
         ]
     }
     render() {
@@ -29,3 +30,4 @@ export default class Services extends Component {
 //create a title component for the servises
 //implement to the servises component
 ///implement servises to the home page
+// set up the state for servieces 
