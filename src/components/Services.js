@@ -6,24 +6,35 @@ export default class Services extends Component {
     state={
         services:[
             {icon: <FaCocktail/>,
-            title:'free coctails',
+            title:'Free coctails',
             info:'In our hotel you will get two coctails just for free, margarita martiny or white russian'  },
             {icon: <FaHiking/>,
-                title:'free hiking tour',
+                title:'Hiking tour',
                 info:'If you like adventures, this place definitely for you, our expirienced instruktors will make your vacation unbelievable'  },
                 {icon: <FaShuttleVan/>,
-                    title:'free coctails',
+                    title:'Pick up',
                     info:'we take care of our guests, we will meet you from the airport and take you back'  },
                     {icon: <FaBeer/>,
-                    title:'free beers' ,
+                    title:'Free beers' ,
                     info:'two free beers from our own brewery, always cold always fresh, always best' }
         ]
     }
     render() {
         return (
-            <div>
+            <section className='services' >
                 <Title title='services'/>
-            </div>
+                <div className='services-center'>
+                {this.state.services.map((item, index)=>{
+                    return(
+                        <article key={index} className='service'>
+                            <span>{item.icon}</span>
+                    <h6>{item.title}</h6>
+                    <p>{item.info}</p>
+                        </article>
+                    )
+                })}
+                </div>
+            </section>
         )
     }
 }
