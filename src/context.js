@@ -8,19 +8,19 @@ class RoomProvider extends Component {
         sortedRooms:[],
         featuredRooms:[],
         loading: true
-    }
+    };
     // getData 
 
 //add the methods to access data
     componentDidMount(){
  let rooms =this.formatData(items);
- let featureRooms =rooms.filter(room=> room.featured===true);
+ let featureRooms =rooms.filter(room=> room.featured === true);
  this.setState({
     rooms,
     featureRooms,
     sortedRooms:rooms,
     loading:false
- })
+ });
     }
 formatData(items){
     let  tempItems =items.map(item =>{
@@ -32,15 +32,17 @@ formatData(items){
     });
     return tempItems;
 }
-
+getRoom =(slug) =>{
+    let tempRooms =[...this.state.rooms]
+    const room =tempRooms.find((room)=>room.slug===slug);
+    return room;
+}
     render() {
         return (
-            <div>
                 <RoomContext.Provider value={{...this.state}}>
                     {this.props.children}
                 </RoomContext.Provider>
-            </div>
-        )
+        );
     }
 }
 const RoomConsumer =RoomContext.Consumer;

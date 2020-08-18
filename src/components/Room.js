@@ -30,4 +30,3 @@ Room.propTypes = {
     price: PropTypes.number.isRequired
   })
 };
-// single room next
