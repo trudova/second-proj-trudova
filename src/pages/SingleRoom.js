@@ -8,9 +8,12 @@ export default class SingleRoom extends Component {
     constructor(props){
         super(props)
 this.state={
-    slug: this.props.match.params.slug
-}
+    slug: this.props.match.params.slug,
+    defaultBcg
+};
     }
+    static contextType = RoomContext;
+
     // componentDidMount(){
 
     // }
