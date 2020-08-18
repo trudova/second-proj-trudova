@@ -10,3 +10,4 @@ Hero.defaultProps={
 };
 
 //create a new component - its gonna be a backgraund for header 
+//import background by default 
