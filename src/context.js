@@ -14,7 +14,7 @@ class RoomProvider extends Component {
 //add the methods to access data
     componentDidMount(){
  let rooms =this.formatData(items);
- let featureRooms =rooms.filter(room=> room.feature===true);
+ let featureRooms =rooms.filter(room=> room.featured===true);
  this.setState({
     rooms,
     featureRooms,
