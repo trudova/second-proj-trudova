@@ -3,10 +3,10 @@ import {RoomContext} from '../context'
 export default class FeaturedRooms extends Component {
     static contextType = RoomContext;
     render() {
-        const value=this.context;
+       // const value=this.context;
         return (
             <div>
-                hello from FeaturedRooms {value}
+                hello from FeaturedRooms 
             </div>
         )
     }
