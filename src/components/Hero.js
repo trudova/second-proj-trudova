@@ -1,10 +1,12 @@
 import React from 'react'
 
-export default function Hero() {
+export default function Hero({children, hero}) {
     return (
-        <div>
-            
-        </div>
+        <header className={hero}> {children} </header>
     )
 }
+Hero.defaultProps={
+    hero: 'defaultHero'
+};
+
 //create a new component - its gonna be a backgraund for header 
