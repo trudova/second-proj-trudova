@@ -23,5 +23,6 @@ function App() {
 /// seting up all components
 // making each page navigate to exact page
 //adding switch component functionality
-
+// create nav bar for each page i have
+// install react icons
 export default App;
