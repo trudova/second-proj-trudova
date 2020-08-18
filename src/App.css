@@ -111,12 +111,14 @@ h6 {
   font-size: 1.5rem;
   color: var(--primaryColor);
 }
+/* hiding by dafault */
 .nav-links {
   height: 0;
   overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
 }
+/* showing up by action */
 .nav-links a {
   display: block;
   text-decoration: none;
