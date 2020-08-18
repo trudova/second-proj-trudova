@@ -14,5 +14,6 @@ function App() {
     </>
   );
 }
+/// seting up all components
 
 export default App;
