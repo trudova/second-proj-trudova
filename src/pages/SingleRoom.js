@@ -23,6 +23,9 @@ this.state={
         if(!room ){
             return <div className='error'>
 <h3>no such room X|</h3>
+<Link to='/rooms' className='btn-primary'>
+    Back to rooms
+</Link>
             </div>
         }
         return (
