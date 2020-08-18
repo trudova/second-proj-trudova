@@ -18,6 +18,8 @@ this.state={
 
     // }
     render() {
+        const {getRoom}=this.context;
+        const room = getRoom(this.state.slug);
         return (
             <div>
                 hello from single room page
