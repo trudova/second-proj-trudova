@@ -39,3 +39,4 @@ export default class Navbar extends Component {
 // set up ul = actual nav
 // setting up condition for small and big nav
 //add the links to the pages
+//adding css seting up the links logics
