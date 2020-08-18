@@ -7,3 +7,4 @@ const Rooms = () => {
 }
 
 export default Rooms
+// set up different background for rooms page
