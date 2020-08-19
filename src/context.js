@@ -59,9 +59,12 @@ handleChange=event=>{
 const target= event.target
 const value = event.type==='checkbox'?target. checked: target.value
 const name =event.target.name;
-
+this.setState({
+    [name]:value
+}, this.filterRooms)
 }
 //for the check box
+// chenge value in the state ade deppanding on this filter the rooms
 filterRooms =()=>{
 
 }
