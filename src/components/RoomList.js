@@ -5,6 +5,7 @@ export default function RoomList({ rooms }) {
     return (
       <div className="empty-search">
         <h3>unfortunately no rooms matched your search parameters</h3>
+        {/* ///component for failed search */}
       </div>
     );
   }
