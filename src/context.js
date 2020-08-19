@@ -26,6 +26,8 @@ class RoomProvider extends Component {
  let rooms =this.formatData(items);
  let featureRooms =rooms.filter(room=> room.featured === true);
  let maxPrice = Math.max(...rooms.map(item=> item.price));
+
+ let maxSize = Math.max(...rooms.map(item=> item.size));
  this.setState({
     rooms,
     featureRooms,
