@@ -522,4 +522,8 @@ h6 {
   font-size: 30px;
   font-family: 'Zilla Slab Highlight', cursive;
 }
+.logo:hover{
+  color: #af9a7d;
+}
+
 /* end of rooms fitler*/
