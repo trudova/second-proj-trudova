@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #49b7f6;
+  --primaryColor: #56bd4d;
   --mainWhite: rgb(255, 234, 255);
-  --offWhite: #f8d2c9;
+  --offWhite: (255, 234, 255);
   --mainBlack: rgb(0, 0, 0);
   --mainGrey: #acacac;
   --darkGrey: #a5a5a5;
@@ -518,15 +518,21 @@ h6 {
 .logo{
   text-decoration: none;
   font-style: var(--mainBlack);
-  color: black;
+  color: rgb(4, 41, 4);
   font-size: 40px;
   font-family: 'Black Han Sans', sans-serif;
+  text-shadow: rgba(1, 222, 251, 0.561) 2px 2px 2px;
 }
 .proj{
   font-family: 'Holtwood One SC', serif;
+  color: rgb(80, 2, 2);
+}
+.proj:hover{
+  color: rgb(1, 107, 1);
 }
 .logo:hover{
-  color: #af9a7d;
+  color: #6307b9;
+  text-shadow: rgb(110, 241, 253) 2px 2px 3px;
 }
 
 /* end of rooms fitler*/
