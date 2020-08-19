@@ -518,14 +518,14 @@ h6 {
 .logo{
   text-decoration: none;
   font-style: var(--mainBlack);
-  color: rgb(4, 41, 4);
+  color: var(--primaryColor);
   font-size: 30px;
-  font-family: 'Black Han Sans', sans-serif;
-  text-shadow: rgba(1, 222, 251, 0.561) 2px 2px 2px;
+  
+  text-shadow: var(--mainBlack) 2px 2px 2px;
 }
 .proj{
   font-family: 'Holtwood One SC', serif;
-  color: rgb(80, 2, 2);
+  color: var(--primaryColor);
 }
 .proj:hover{
   color: rgb(1, 107, 1);
