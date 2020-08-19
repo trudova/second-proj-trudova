@@ -66,7 +66,7 @@ this.setState({
 //for the check box
 // chenge value in the state ade deppanding on this filter the rooms
 filterRooms =()=>{
-
+let {rooms, type, capacity, price,minSize,maxSize, breakfast,pets}=this.state
 }
 
     render() {
