@@ -449,6 +449,7 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 30px;
 }
+/* auto fill filling out space */
 
 @media screen and (min-width: 776px) {
   .roomslist-center {
