@@ -32,7 +32,11 @@ class RoomProvider extends Component {
     rooms,
     featureRooms,
     sortedRooms:rooms,
-    loading:false
+    loading:false,
+    price:maxPrice,
+    maxPrice,
+    maxSize
+
  });
     }
 formatData(items){
@@ -50,6 +54,10 @@ getRoom =(slug) =>{
     const room =tempRooms.find((room)=>room.slug===slug);
     return room;
 } //filtr the room 
+
+
+
+
     render() {
         return (
      <RoomContext.Provider value={{...this.state, getRoom: this.getRoom}}>
