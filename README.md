@@ -12,4 +12,4 @@ eact-icons - i used https://fontawesome.com/icons/align-justify?style=solid icon
     for sort each room using map() filtr() and find()
     seting up variable for css
      -->
-     https://wireframe.cc/c4KxFb
+ <!-- https://wireframe.cc/c4KxFb -->
