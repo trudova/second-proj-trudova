@@ -56,10 +56,12 @@ getRoom =(slug) =>{
 } //filtr the room 
 
 handleChange=event=>{
-const type =event.target.type;
+const target= event.target
+const value = event.type==='checkbox'?target. checked: target.value
 const name =event.target.name;
-const value =event.target.value;
+
 }
+//for the check box
 filterRooms =()=>{
 
 }
