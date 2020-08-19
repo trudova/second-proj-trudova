@@ -5,8 +5,8 @@
 }
 :root {
   --primaryColor: #56bd4d;
-  --mainWhite: rgb(250, 232, 250);
-  --offWhite: (255, 234, 255);
+  --mainWhite: rgb(225, 235, 250);
+  --offWhite: rgb(225, 235, 250);
   --mainBlack: rgb(0, 0, 0);
   --mainGrey: #acacac;
   --darkGrey: #a5a5a5;
