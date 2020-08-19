@@ -16,7 +16,7 @@ function RoomContainer({ context }) {
     </>
   );
 }
-
+//wraping up RoomContainer in to room consumer
 export default withRoomConsumer(RoomContainer);
 //rebuilt with higth order component fron  context
 
