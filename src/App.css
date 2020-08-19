@@ -146,6 +146,7 @@ h6 {
     margin: 0 auto;
     display: flex;
   }
+  
   .nav-links {
     height: auto;
     display: flex;
@@ -513,5 +514,12 @@ h6 {
     width: 95vw;
     max-width: 1170px;
   }
+}
+.logo{
+  text-decoration: none;
+  font-style: var(--mainBlack);
+  color: black;
+  font-size: 30px;
+  font-family: 'Zilla Slab Highlight', cursive;
 }
 /* end of rooms fitler*/
