@@ -61,12 +61,12 @@ const name =event.target.name;
 const value =event.target.value;
 }
 filterRooms =()=>{
-    
+
 }
 
     render() {
         return (
-     <RoomContext.Provider value={{...this.state, getRoom: this.getRoom}}>
+     <RoomContext.Provider value={{...this.state, getRoom: this.getRoom, handleChange:this.handleChange}}>
                     {this.props.children}
      </RoomContext.Provider>
         );
