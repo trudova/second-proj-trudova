@@ -8,5 +8,7 @@ eact-icons - i used https://fontawesome.com/icons/align-justify?style=solid icon
     react-router-dom -to combine components
     styled-components - to place pictures for each room
     
-    //using container for combine filtr and rooms
+    //using container for combine filtr and rooms.
+    for sort each room using map() filtr() and find()
+    seting up variable for css
      -->
