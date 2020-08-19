@@ -4,10 +4,20 @@ const RoomContext =React.createContext();
 //provider and concumer 
 class RoomProvider extends Component {
     state={
-        rooms:[],
-        sortedRooms:[],
-        featuredRooms:[],
-        loading: true
+        rooms: [],
+    sortedRooms: [],
+    featuredRooms: [],
+    loading: true,
+    type: "all",
+    capacity: 1,
+    price: 0,
+    minPrice: 0,
+    maxPrice: 0,
+    minSize: 0,
+    maxSize: 0,
+    breakfast: false,
+    pets: false
+
     };
     // getData 
 
