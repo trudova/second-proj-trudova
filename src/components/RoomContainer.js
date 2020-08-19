@@ -9,11 +9,14 @@ export default function RoomContainer() {
             {
               (value)=>{
                   const {loading, sortedRooms,rooms}=value;
+                  if(loading){
+                      return<Loading/>
+                  }
                 return(
                     <div>
             hello from rooms conteiner
-            <RoomFilter/>
-            <RoomList/>
+            <RoomFilter rooms={rooms}/>
+            <RoomList rooms={sortedRooms}/>
         </div>
                 )
               }  
