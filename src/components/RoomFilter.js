@@ -20,6 +20,10 @@ export default function RoomFilter() {
     return (
         <section className='filter -container'>
           <Title title='search your sweet room'/>
+          <form className='filter-form'>
+{/* select type */}
+
+          </form>
         </section>
     )
 }
