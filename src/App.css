@@ -5,7 +5,7 @@
 }
 :root {
   --primaryColor: #56bd4d;
-  --mainWhite: rgb(255, 234, 255);
+  --mainWhite: rgb(250, 232, 250);
   --offWhite: (255, 234, 255);
   --mainBlack: rgb(0, 0, 0);
   --mainGrey: #acacac;
@@ -519,7 +519,7 @@ h6 {
   text-decoration: none;
   font-style: var(--mainBlack);
   color: rgb(4, 41, 4);
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Black Han Sans', sans-serif;
   text-shadow: rgba(1, 222, 251, 0.561) 2px 2px 2px;
 }
