@@ -10,12 +10,10 @@ eact-icons - i used https://fontawesome.com/icons/align-justify?style=solid icon
     
     using container for combine filtr and rooms.
     for sort each room using map() filtr() and find()
-    seting up variable for css
-<<<<<<< HEAD
+
 Stap by stap way:
 =======
 
->>>>>>> 2211cc5d4002cd4ca17950ec65b38d1775173e66
     // create page folder
     // craete componenst in page
     // create components folder, cheate support components;
