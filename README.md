@@ -16,8 +16,18 @@ eact-icons - i used https://fontawesome.com/icons/align-justify?style=solid icon
     // craete componenst in page
     // create components folder, cheate support components;
     // meke each item - separate component;
+    //Set up loding component
+    //Set up room component
+    Create a get room function
+    //set un single room
+    //Set up here for single room component
     // wraping up banner in to hero
-    // containe filter component and roomsList components;
+    // Set up Room comteiner
+    // Contain RoomList and filter components
+    //Campacity filtr
+    // copy and pace compacity - recreate as a price .
+    //// copy and pace compacity - recreate as a check box filtr .
+    //
 
     
  https://wireframe.cc/c4KxFb
